@@ -1,0 +1,27 @@
+{
+  "name": "reactplatziyield",
+  "version": "1.0.0",
+  "description": "React Platzi Yield",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderpinna/reactPlatziYield.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Alejandro Pina (alex919090@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderpinna/reactPlatziYield/issues"
+  },
+  "homepage": "https://github.com/alexanderpinna/reactPlatziYield#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
