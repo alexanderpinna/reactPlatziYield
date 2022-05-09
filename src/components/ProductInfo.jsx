@@ -1,19 +1,22 @@
 import React from 'react';
 import '../styles/ProductInfo.scss';
 
+import iconClose from '@icons/icon_close.png';
+import addToCart from '@icons/bt_add_to_cart.svg';
+
 const ProductInfo = () => {
     return (
         <aside className="productDetail">
             <div className="productDetailClose">
-                <img src="./icons/icon_close.png" alt="close" />
+                <img src={iconClose} alt="close" />
             </div>
-            <img src="./img/pexels-photo-276517.jpeg" alt="bike" />
+            <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike" />
             <div className="productInfo">
                 <p>$35.00</p>
                 <p>Bike</p>
                 <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
                 <button className="primaryButton AddToCartButton">
-                    <img src="./icons/bt_add_to_cart.svg" alt="add to cart" />
+                    <img src={addToCart} alt="add to cart" />
                     Add to cart
                 </button>
             </div>
