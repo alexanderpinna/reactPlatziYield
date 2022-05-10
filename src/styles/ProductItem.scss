@@ -9,26 +9,26 @@
 	border-radius: 20px;
 	object-fit: cover;
 }
-.productItem {
+.product-info {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 12px;
 }
-.productItem figure {
+.product-info figure {
 	margin: 0;
 }
-.productItem figure img {
+.product-info figure img {
 	width: 35px;
 	height: 35px;
 }
-.productItem div p:nth-child(1) {
+.product-info div p:nth-child(1) {
 	font-weight: bold;
 	font-size: var(--md);
 	margin-top: 0;
 	margin-bottom: 4px;
 }
-.productItem div p:nth-child(2) {
+.product-info div p:nth-child(2) {
 	font-size: var(--sm);
 	margin-top: 0;
 	margin-bottom: 0;
